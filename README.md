@@ -21,7 +21,7 @@ Nova is an intelligent AI partner that understands the user’s intent, navigate
 *Please note that you may need to refresh the page for the extension to work.*
 
 1. Find the Nova icon in the top right corner of your browser and click on it to open the sidepanel.
-2. Create or access an existing [OpenAI API Key](https://platform.openai.com/account/api-keys) and paste it in the provided box. This key will be stored in your browser, and will not be uploaded to a third party.
+2. Create or access an existing [OpenAI API Key](https://platform.openai.com/account/api-keys) or [Anthropic API key](https://console.anthropic.com/settings/keys) and paste it in the provided box. This key will be stored in your browser, and will not be uploaded to a third party.
 3. Finally, navigate to a webpage you want Nova and type in the task you want it to perform.
 
 ### Build the extension
