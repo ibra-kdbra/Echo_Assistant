@@ -1,13 +1,13 @@
 import { DomActions } from "./domActions";
 import {
-  NOVA_LABEL_ATTRIBUTE_NAME,
+  ECHO_LABEL_ATTRIBUTE_NAME,
   VISIBLE_TEXT_ATTRIBUTE_NAME,
 } from "../../constants";
 import { sleep } from "../utils";
 import { type ToolOperation } from "../vision-agent/tools";
 
 function getSelector(label: string): string {
-  return `[${NOVA_LABEL_ATTRIBUTE_NAME}="${label}"]`;
+  return `[${ECHO_LABEL_ATTRIBUTE_NAME}="${label}"]`;
 }
 
 function getFallbackSelector(selectorName: string): string {

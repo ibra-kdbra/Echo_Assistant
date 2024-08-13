@@ -1,4 +1,4 @@
-import { NOVA_ELEMENT_SELECTOR } from "../../constants";
+import { ECHO_ELEMENT_SELECTOR } from "../../constants";
 import { callRPCWithTab } from "./pageRPC";
 import { scrollScriptString } from "./runtimeFunctionStrings";
 import { sleep, waitFor, waitTillStable } from "../utils";
@@ -47,7 +47,7 @@ export class DomActions {
       "getUniqueElementSelectorId",
       [originalId],
     );
-    return `[${NOVA_ELEMENT_SELECTOR}="${uniqueId}"]`;
+    return `[${ECHO_ELEMENT_SELECTOR}="${uniqueId}"]`;
   }
 
   private async getObjectId(originalId: number) {
