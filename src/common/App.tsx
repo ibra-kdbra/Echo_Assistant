@@ -29,7 +29,7 @@ const App = () => {
         <HStack mb={4} justifyContent="space-between" alignItems="center">
           <Flex alignItems="center">
             <Heading as="h1" size="lg">
-              Nova
+              Echo
             </Heading>
             <Image src="/nova.png" width="8" height="8" alt="nova logo" />
           </Flex>

@@ -31,5 +31,5 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: nova-extension
+          name: echo-extension
           path: dist/*
