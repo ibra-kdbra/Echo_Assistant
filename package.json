@@ -28,7 +28,7 @@
     "@emotion/styled": "^11.11.5",
     "accname": "^1.1.0",
     "construct-style-sheets-polyfill": "3.1.0",
-    "formik": "^2.4.5",
+    "formik": "^2.4.6",
     "immer": "^10.0.3",
     "lodash": "^4.17.21",
     "openai": "^4.47.1",
