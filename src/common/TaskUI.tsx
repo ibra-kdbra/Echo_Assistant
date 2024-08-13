@@ -116,7 +116,7 @@ const TaskUI = () => {
       <AutosizeTextarea
         // eslint-disable-next-line jsx-a11y/no-autofocus
         autoFocus
-        placeholder="Try telling Nova to do a task"
+        placeholder="Try telling Echo to do a task"
         value={state.instructions || ""}
         isDisabled={taskInProgress || state.isListening}
         onChange={(e) => state.setInstructions(e.target.value)}
@@ -138,7 +138,7 @@ const TaskUI = () => {
           <AlertIcon />
           <AlertDescription fontSize="sm" lineHeight="5">
             In Voice Mode, you can press Space to start speaking and Space again
-            to stop. Nova will run the task when you stop speaking. To turn off
+            to stop. Echo will run the task when you stop speaking. To turn off
             Voice Mode, click the Setting icon in the top right corner.
           </AlertDescription>
         </Alert>

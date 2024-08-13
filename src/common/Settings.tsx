@@ -173,7 +173,7 @@ const Settings = ({ setInSettingsView }: SettingsProps) => {
             <Alert status="warning" borderRadius="lg">
               <AlertIcon />
               <AlertDescription fontSize="sm">
-                Most of Nova&rsquo;s capabilities are based on the GPT-4 Turbo
+                Most of Echo&rsquo;s capabilities are based on the GPT-4 Turbo
                 mode. Other models are available for research purposes.
               </AlertDescription>
             </Alert>

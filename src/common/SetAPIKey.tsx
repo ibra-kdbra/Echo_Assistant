@@ -60,7 +60,7 @@ const SetAPIKey = ({
   return (
     <VStack spacing={4}>
       <Text fontSize="sm">
-        You&rsquo;ll need an OpenAI or Anthropic API Key to run the Nova in
+        You&rsquo;ll need an OpenAI or Anthropic API Key to run the Echo in
         developer mode. If you don&rsquo;t already have one available, you can
         create one in your{" "}
         <Link
@@ -81,7 +81,7 @@ const SetAPIKey = ({
         .
         <br />
         <br />
-        Nova stores your API keys locally on your device, and they are only used
+        Echo stores your API keys locally on your device, and they are only used
         to communicate with the OpenAI API and/or the Anthropic API.
       </Text>
       <Box position="relative" py="2" w="full">
