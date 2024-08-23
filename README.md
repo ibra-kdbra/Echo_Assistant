@@ -4,6 +4,10 @@
 
 Echo is an intelligent AI partner that understands the user’s intent, navigates websites autonomously, and executes tasks on the user’s behalf while explaining each action step.
 
+## Show Case
+
+[![Watch the video](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/thumbnail.png)](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/video.mp4)
+
 ## Installing and Running
 
 ### Download and Install the extension in your browser
@@ -35,3 +39,11 @@ If you want to build the extension from source, follow these instructions:
 5. Run `pnpm dev` to start the development server, or `pnpm build` to build the extension.
 
 When loading the extension, you will need to load the `dist` folder created by the build process.
+
+### Enhanced Knowledge
+
+See [Prior Knowledge](./media/CONTRIBUTING_KNOWLEDGE.md)
+
+### Troubleshooting
+
+See [Troubleshooting Guide](TROUBLESHOOTING.md)
