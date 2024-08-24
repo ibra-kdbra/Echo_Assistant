@@ -6,6 +6,12 @@ Echo is an intelligent AI partner that understands the user’s intent, navigate
 
 ## Show Case
 
+### Sample Vision Screenshot
+
+![screenshot](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/sherlock.png)
+
+### Demo Video
+
 [![Watch the video](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/thumbnail.png)](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/video.mp4)
 
 ## Installing and Running
