@@ -12,7 +12,9 @@ Echo is an intelligent AI partner that understands the user’s intent, navigate
 
 ### Demo Video
 
-[![Watch the video](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/thumbnail.png)](https://raw.githubusercontent.com/ibra-kdbra/Echo_Assistant/main/media/video.mp4)
+
+https://github.com/user-attachments/assets/8fb26415-74b9-4619-80d1-2d47157a8af9
+
 
 ## Installing and Running
 
@@ -25,6 +27,9 @@ Echo is an intelligent AI partner that understands the user’s intent, navigate
    2. Toggle `Developer mode`
    3. Click on `Load unpacked extension`
    4. Select the unzipped folder
+
+
+
 
 ### Use the extension
 
