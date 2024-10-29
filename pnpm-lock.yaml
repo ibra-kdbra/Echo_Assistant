@@ -36,8 +36,8 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   openai:
-    specifier: ^4.47.1
-    version: 4.47.1
+    specifier: ^4.54.0
+    version: 4.54.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -7422,8 +7422,8 @@ packages:
       mimic-function: 5.0.1
     dev: true
 
-  /openai@4.47.1:
-    resolution: {integrity: sha512-WWSxhC/69ZhYWxH/OBsLEirIjUcfpQ5+ihkXKp06hmeYXgBBIUCa9IptMzYx6NdkiOCsSGYCnTIsxaic3AjRCQ==}
+  /openai@4.54.0:
+    resolution: {integrity: sha512-e/12BdtTtj+tXs7iHm+Dm7H7WjEWnw7O52B2wSfCQ6lD5F6cvjzo7cANXy5TJ1Q3/qc8YRPT5wBTTFtP5sBp1g==}
     hasBin: true
     dependencies:
       '@types/node': 18.19.15
@@ -7433,7 +7433,6 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
-      web-streams-polyfill: 3.3.2
     transitivePeerDependencies:
       - encoding
     dev: false
