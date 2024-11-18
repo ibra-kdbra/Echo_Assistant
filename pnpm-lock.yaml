@@ -89,8 +89,8 @@ devDependencies:
     specifier: 16.0.1
     version: 16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.2.22)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)
   '@types/chrome':
-    specifier: 0.0.251
-    version: 0.0.251
+    specifier: 0.0.283
+    version: 0.0.283
   '@types/dom-speech-recognition':
     specifier: ^0.0.4
     version: 0.0.4
@@ -2798,8 +2798,8 @@ packages:
       '@babel/types': 7.25.2
     dev: true
 
-  /@types/chrome@0.0.251:
-    resolution: {integrity: sha512-UF+yr0LEKWWGsKxQ5A3XOSF5SNoU1ctW3pXcWJPpT8OOUTEspYeaLU8spDKe+6xalXeMTS0TBrX1g0b6qlWmkw==}
+  /@types/chrome@0.0.283:
+    resolution: {integrity: sha512-bPnu1JqeQxMceRP0oxFYrauoe0BlWxxQxhYL58gWLg5Ywsd3i3Dd6By9OW7BdkNQMokodWzBLR5FHDIeQZvJWg==}
     dependencies:
       '@types/filesystem': 0.0.35
       '@types/har-format': 1.2.15
@@ -3350,6 +3350,7 @@ packages:
 
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
