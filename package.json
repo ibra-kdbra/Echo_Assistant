@@ -48,7 +48,7 @@
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.2.2",
     "@jest/globals": "^29.7.0",
-    "@rollup/plugin-typescript": "12.1.1",
+    "@rollup/plugin-typescript": "12.1.2",
     "@testing-library/react": "16.1.0",
     "@types/chrome": "0.0.299",
     "@types/dom-speech-recognition": "^0.0.4",
