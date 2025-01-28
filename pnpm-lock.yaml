@@ -37,7 +37,7 @@ dependencies:
     version: 4.17.21
   openai:
     specifier: ^4.77.0
-    version: 4.77.0(zod@3.23.8)
+    version: 4.77.0(zod@3.24.1)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -63,11 +63,11 @@ dependencies:
     specifier: 0.12.0
     version: 0.12.0
   zod:
-    specifier: ^3.23.8
-    version: 3.23.8
+    specifier: ^3.24.1
+    version: 3.24.1
   zod-validation-error:
     specifier: ^3.4.0
-    version: 3.4.0(zod@3.23.8)
+    version: 3.4.0(zod@3.24.1)
   zustand:
     specifier: ^5.0.2
     version: 5.0.2(@types/react@18.3.12)(immer@10.1.1)(react@18.3.1)
@@ -7737,7 +7737,7 @@ packages:
       mimic-function: 5.0.1
     dev: true
 
-  /openai@4.77.0(zod@3.23.8):
+  /openai@4.77.0(zod@3.24.1):
     resolution: {integrity: sha512-WWacavtns/7pCUkOWvQIjyOfcdr9X+9n9Vvb0zFeKVDAqwCMDHB+iSr24SVaBAhplvSG6JrRXFpcNM9gWhOGIw==}
     hasBin: true
     peerDependencies:
@@ -7753,7 +7753,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
-      zod: 3.23.8
+      zod: 3.24.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -9926,17 +9926,17 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zod-validation-error@3.4.0(zod@3.23.8):
+  /zod-validation-error@3.4.0(zod@3.24.1):
     resolution: {integrity: sha512-ZOPR9SVY6Pb2qqO5XHt+MkkTRxGXb4EVtnjc9JpXUOtUB1T9Ru7mZOT361AN3MsetVe7R0a1KZshJDZdgp9miQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       zod: ^3.18.0
     dependencies:
-      zod: 3.23.8
+      zod: 3.24.1
     dev: false
 
-  /zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  /zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
     dev: false
 
   /zustand@5.0.2(@types/react@18.3.12)(immer@10.1.1)(react@18.3.1):
