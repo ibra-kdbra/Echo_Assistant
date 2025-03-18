@@ -89,8 +89,8 @@ devDependencies:
     specifier: 16.1.0
     version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
   '@types/chrome':
-    specifier: 0.0.299
-    version: 0.0.299
+    specifier: 0.0.309
+    version: 0.0.309
   '@types/dom-speech-recognition':
     specifier: ^0.0.4
     version: 0.0.4
@@ -3292,8 +3292,8 @@ packages:
       '@babel/types': 7.26.3
     dev: true
 
-  /@types/chrome@0.0.299:
-    resolution: {integrity: sha512-hPoHmFWUaKw2s3wDjUtMsvZqeh9lKL7nFQx6yaAYt7RxBKv/V3rDUaA4BgUR145nnpF6hpNhHaxhtcCSFJ5b7w==}
+  /@types/chrome@0.0.309:
+    resolution: {integrity: sha512-ZFADzcp8b+roUrux68U8pti4cmNOLJXWkShk8lfxj9SBcjYqpJt7NypBprSJUJDJVakGZgd2Tt00QePIGh7oPA==}
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
