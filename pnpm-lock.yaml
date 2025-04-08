@@ -37,7 +37,7 @@ dependencies:
     version: 4.17.21
   openai:
     specifier: ^4.91.0
-    version: 4.91.0(ws@8.18.0)(zod@3.24.2)
+    version: 4.91.0(ws@8.18.1)(zod@3.24.2)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -110,8 +110,8 @@ devDependencies:
     specifier: 18.3.1
     version: 18.3.1
   '@types/ws':
-    specifier: 8.5.13
-    version: 8.5.13
+    specifier: 8.18.1
+    version: 8.18.1
   '@typescript-eslint/eslint-plugin':
     specifier: 6.21.0
     version: 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.7.3)
@@ -195,7 +195,7 @@ devDependencies:
     version: 29.2.5(@babel/core@7.25.2)(esbuild@0.25.2)(jest@29.7.0)(typescript@5.7.3)
   ts-loader:
     specifier: 9.5.2
-    version: 9.5.2(typescript@5.7.3)(webpack@5.99.0)
+    version: 9.5.2(typescript@5.7.3)(webpack@5.99.2)
   tslib:
     specifier: 2.8.1
     version: 2.8.1
@@ -206,8 +206,8 @@ devDependencies:
     specifier: 5.4.0
     version: 5.4.0(@types/node@22.13.14)(sass@1.83.1)
   ws:
-    specifier: 8.18.0
-    version: 8.18.0
+    specifier: 8.18.1
+    version: 8.18.1
 
 packages:
 
@@ -3470,8 +3470,8 @@ packages:
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
     dev: false
 
-  /@types/ws@8.5.13:
-    resolution: {integrity: sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==}
+  /@types/ws@8.18.1:
+    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
     dependencies:
       '@types/node': 22.13.14
     dev: true
@@ -7107,7 +7107,7 @@ packages:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 11.0.0
-      ws: 8.18.0
+      ws: 8.18.1
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -7754,7 +7754,7 @@ packages:
       mimic-function: 5.0.1
     dev: true
 
-  /openai@4.91.0(ws@8.18.0)(zod@3.24.2):
+  /openai@4.91.0(ws@8.18.1)(zod@3.24.2):
     resolution: {integrity: sha512-zdDg6eyvUmCP58QAW7/aPb+XdeavJ51pK6AcwZOWG5QNSLIovVz0XonRL9vARGJRmw8iImmvf2A31Q7hoh544w==}
     hasBin: true
     peerDependencies:
@@ -7773,7 +7773,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
-      ws: 8.18.0
+      ws: 8.18.1
       zod: 3.24.2
     transitivePeerDependencies:
       - encoding
@@ -9169,7 +9169,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin@5.3.14(esbuild@0.25.2)(webpack@5.99.0):
+  /terser-webpack-plugin@5.3.14(esbuild@0.25.2)(webpack@5.99.2):
     resolution: {integrity: sha512-vkZjpUjb6OMS7dhV+tILUW6BhpDR7P2L/aQSAv+Uwk+m8KATX9EccViHTJR2qDtACKPIYndLGCyl3FMo+r2LMw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -9191,7 +9191,7 @@ packages:
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.99.0(esbuild@0.25.2)
+      webpack: 5.99.2(esbuild@0.25.2)
     dev: true
 
   /terser@5.39.0:
@@ -9354,7 +9354,7 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /ts-loader@9.5.2(typescript@5.7.3)(webpack@5.99.0):
+  /ts-loader@9.5.2(typescript@5.7.3)(webpack@5.99.2):
     resolution: {integrity: sha512-Qo4piXvOTWcMGIgRiuFa6nHNm+54HbYaZCKqc9eeZCLRy3XqafQgwX2F7mofrbJG3g7EEb+lkiR+z2Lic2s3Zw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -9367,7 +9367,7 @@ packages:
       semver: 7.6.3
       source-map: 0.7.4
       typescript: 5.7.3
-      webpack: 5.99.0(esbuild@0.25.2)
+      webpack: 5.99.2(esbuild@0.25.2)
     dev: true
 
   /tsconfig-paths@3.15.0:
@@ -9703,8 +9703,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.99.0(esbuild@0.25.2):
-    resolution: {integrity: sha512-//MpHjkKV7dhKheJ1lJuHkR6tv8ycfYy7YVzVhhIpwKuKCu5/Zty/vGpFi0fV2RRAWTYDuj6oKn4vYyLzRh55g==}
+  /webpack@5.99.2(esbuild@0.25.2):
+    resolution: {integrity: sha512-1LYyB3DIKS4k2JlBHKp+b63b1jp9Nn86wypihsZOeKove7kpRCAVqN8pIle0wbs6a0p4kxkMt01lbb6Y93CpRw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -9733,7 +9733,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 4.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(esbuild@0.25.2)(webpack@5.99.0)
+      terser-webpack-plugin: 5.3.14(esbuild@0.25.2)(webpack@5.99.2)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -9874,8 +9874,8 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
-  /ws@8.18.0:
-    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
+  /ws@8.18.1:
+    resolution: {integrity: sha512-RKW2aJZMXeMxVpnZ6bck+RswznaxmzdULiBr6KY7XkTnW8uvt0iT9H5DkHUChXrc+uurzwa0rVI16n/Xzjdz1w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
