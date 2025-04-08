@@ -37,7 +37,7 @@ dependencies:
     version: 4.17.21
   openai:
     specifier: ^4.91.0
-    version: 4.91.0(ws@8.18.0)(zod@3.24.2)
+    version: 4.91.0(ws@8.18.1)(zod@3.24.2)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -110,8 +110,8 @@ devDependencies:
     specifier: 18.3.1
     version: 18.3.1
   '@types/ws':
-    specifier: 8.5.13
-    version: 8.5.13
+    specifier: 8.18.1
+    version: 8.18.1
   '@typescript-eslint/eslint-plugin':
     specifier: 6.21.0
     version: 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.7.3)
@@ -206,8 +206,8 @@ devDependencies:
     specifier: 5.4.0
     version: 5.4.0(@types/node@22.14.0)(sass@1.83.1)
   ws:
-    specifier: 8.18.0
-    version: 8.18.0
+    specifier: 8.18.1
+    version: 8.18.1
 
 packages:
 
@@ -3464,8 +3464,8 @@ packages:
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
     dev: false
 
-  /@types/ws@8.5.13:
-    resolution: {integrity: sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==}
+  /@types/ws@8.18.1:
+    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
     dependencies:
       '@types/node': 22.14.0
     dev: true
@@ -7101,7 +7101,7 @@ packages:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 11.0.0
-      ws: 8.18.0
+      ws: 8.18.1
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -7748,7 +7748,7 @@ packages:
       mimic-function: 5.0.1
     dev: true
 
-  /openai@4.91.0(ws@8.18.0)(zod@3.24.2):
+  /openai@4.91.0(ws@8.18.1)(zod@3.24.2):
     resolution: {integrity: sha512-zdDg6eyvUmCP58QAW7/aPb+XdeavJ51pK6AcwZOWG5QNSLIovVz0XonRL9vARGJRmw8iImmvf2A31Q7hoh544w==}
     hasBin: true
     peerDependencies:
@@ -7767,7 +7767,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
-      ws: 8.18.0
+      ws: 8.18.1
       zod: 3.24.2
     transitivePeerDependencies:
       - encoding
@@ -9868,8 +9868,8 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
-  /ws@8.18.0:
-    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
+  /ws@8.18.1:
+    resolution: {integrity: sha512-RKW2aJZMXeMxVpnZ6bck+RswznaxmzdULiBr6KY7XkTnW8uvt0iT9H5DkHUChXrc+uurzwa0rVI16n/Xzjdz1w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
